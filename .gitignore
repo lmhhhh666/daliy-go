@@ -1,0 +1,14 @@
+# 依赖与构建产物（CI 会现场生成，无需上传）
+node_modules/
+dist/
+android/
+ios/
+
+# 本地环境
+local.properties
+*.log
+.DS_Store
+
+# 环境变量
+.env
+.env.local
